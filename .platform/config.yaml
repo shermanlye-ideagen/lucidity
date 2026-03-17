@@ -1,0 +1,9 @@
+build_args:
+  PHP_VERSION: "8.2"
+
+env_vars:
+  APP_ENV: "production"
+  LOG_LEVEL: "info"
+
+feature_flags:
+  enable_risk_scoring: true
